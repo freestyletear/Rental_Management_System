@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+#contact-form {
+    min-height: 100vh;
+    background: url("./images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background: rgba(20,29,40, 0.8);
+    width: 50%;
+    color: #fff;
+    border-radius: 30px;
+}
+.head {
+    text-align: center;
+    padding: 2rem 1rem  1rem;
+    font-size: 2rem;
+}
+.name-wrapper, .email-wrapper {
+    padding: 1rem;
+    text-align: center;
+
+}
+.container label {
+    font-size: 1.5rem;
+}
+.container button {
+    background: linear-gradient ( to right, #f64f59/ #c471 12c2e9);
+    border: none;
+    color: #fff;
+    font-size: 1.8ren;
+    font-weight: bold;
+    cursor: pointer;
+    transition:background 0.5s easen-in-out;
+    width: 100%;
+    padding: 1rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 2rem;
+}
+button:hover {
+    background: linear-gradient(to right, #ec2f4b, #009f)
+
+}
+.container input {
+    padding: 1rem 3 rem
+}
